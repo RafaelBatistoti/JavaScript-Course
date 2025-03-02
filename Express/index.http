@@ -1,1 +1,11 @@
 GET http://localhost:3000/api/num2
+
+###
+
+POST  http://localhost:3000/somar
+content-type: application/json
+
+{
+    "num1": 1,
+    "num2": 2
+}
