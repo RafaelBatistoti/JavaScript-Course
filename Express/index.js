@@ -2,9 +2,9 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
-app.get("/", (req, res) => {
+app.get("/api/:id", (req, res) => {
 
-res.send('Hello World: ' + req.query.num) //Enviando um query params 
+res.send('Hello World: ' + req.params.id) //Enviando um req.params 
  
 });
 
