@@ -6,8 +6,8 @@ POST  http://localhost:3000/somar
 content-type: application/json
 
 {
-    "num1":5,
-    "num2": 2
+    "num1": 5,
+    "num2": "ads"
 }
 
 ###
@@ -18,7 +18,7 @@ content-type: application/json
 
 {
     "num1": 11,
-    "num2": 2
+    "num2": "adf"
 }
 
 ###
@@ -37,6 +37,6 @@ POST  http://localhost:3000/dividir
 content-type: application/json
 
 {
-    "num1": 10,
-    "num2": 2
+    "num1": 0,
+    "num2": 0
 }
