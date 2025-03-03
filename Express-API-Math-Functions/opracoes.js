@@ -24,4 +24,8 @@ function apiDividir(req, res) {
 	res.status(200).send({ result });
 }
 
-module.exports = { apiSomar, apiSubtrair, apiMultiplicar, apiDividir };
+function hello (req, res) {
+	res.send("Hello World: " + req.params.id); //Enviando um req.params
+};
+
+module.exports = { apiSomar, apiSubtrair, apiMultiplicar, apiDividir, hello};
